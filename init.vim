@@ -8,3 +8,5 @@ nmap cll iconsole.log()<Esc><S-f>(a
 nmap yi ^y$$
 " delete line except newline char, then remove left-over newline char
 nmap di ^d$$"_dd
+" use capital U as redo (undo undo)
+nmap U <C-r>
