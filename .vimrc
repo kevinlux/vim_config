@@ -1,4 +1,7 @@
 set expandtab
+set termguicolors
+set splitright
+set hidden
 set shiftwidth=4
 filetype on
 syntax on
@@ -26,6 +29,9 @@ set laststatus=2
 
 " Buffer delete
 nnoremap <leader>bd :bd<CR>
+
+nnoremap <Leader>l <C-w>l
+nnoremap <Leader>h <C-w>h
 
 " [AUTOCOMPLETE]
 if !exists('g:vscode')
